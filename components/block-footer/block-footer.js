@@ -1,10 +1,14 @@
-import { Button, Input, Space } from "antd";
+import { Button, Input, Space, Grid as AntGrid } from "antd";
 import { Lead, SectionTitle } from "../common/__styles";
 import Grid from "../grid/grid";
 import { Content, HalfOpacity, Left } from "./__styles";
 import { Form } from "./__styles";
 
+const { useBreakpoint } = AntGrid;
+
 const BlockFooter = () => {
+  const { xl } = useBreakpoint();
+
   return (
     <>
       <Grid>
@@ -26,16 +30,40 @@ const BlockFooter = () => {
             </Space>
           </Left>
 
-          <Form layout="vertical">
-            <Form.Item name="name">
+          <Form layout="vertical" id={"get_success"}>
+            <Form.Item
+              rules={[
+                {
+                  required: true,
+                  message: "Please fill the field!",
+                },
+              ]}
+              name="name"
+            >
               <Input placeholder="Name" />
             </Form.Item>
 
-            <Form.Item name="email">
+            <Form.Item
+              rules={[
+                {
+                  required: true,
+                  message: "Please fill the field!",
+                },
+              ]}
+              name="email"
+            >
               <Input placeholder="Email" />
             </Form.Item>
 
-            <Form.Item name="phone">
+            <Form.Item
+              rules={[
+                {
+                  required: true,
+                  message: "Please fill the field!",
+                },
+              ]}
+              name="phone"
+            >
               <Input placeholder="Phone" />
             </Form.Item>
 

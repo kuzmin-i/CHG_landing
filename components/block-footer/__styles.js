@@ -63,4 +63,9 @@ export const Form = styled(AntForm)`
   && .ant-form-item {
     margin-bottom: 0px;
   }
+
+  && .ant-form-item-explain-error {
+    font-size: 1.25rem;
+    transform: translateY(-1.25rem);
+  }
 `;

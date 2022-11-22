@@ -166,7 +166,7 @@ export const Link = styled.div`
   & * {
     color: white;
     text-decoration: underline;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 `;
 

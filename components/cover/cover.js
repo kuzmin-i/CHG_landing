@@ -18,7 +18,14 @@ const Cover = () => {
             communication media.
           </Lead>
 
-          <Button type="primary">Get access</Button>
+          <Button
+            type="primary"
+            onClick={() => {
+              document.getElementById("get_success").scrollIntoView();
+            }}
+          >
+            Get access
+          </Button>
 
           <KPIS>
             <Space direction="vertical">

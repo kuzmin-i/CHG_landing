@@ -90,7 +90,7 @@ const BlockTop = () => {
                   </Space>
 
                   <LinkPanel wrap>
-                    <Li href="/" target={"_blank"}>
+                    <Li href="https://razvivaemturizm.ru/" target={"_blank"}>
                       <Link>Visit website</Link>
                     </Li>
                   </LinkPanel>
@@ -115,7 +115,10 @@ const BlockTop = () => {
                   </Space>
 
                   <LinkPanel wrap>
-                    <Li href="/" target={"_blank"}>
+                    <Li
+                      href="https://xn--80acbgia5apsnnbets.xn--p1ai/"
+                      target={"_blank"}
+                    >
                       <Link>Visit website</Link>
                     </Li>
                   </LinkPanel>
@@ -139,23 +142,29 @@ const BlockTop = () => {
                   </Space>
 
                   <LinkPanel wrap size={16}>
-                    <Li href="/" target={"_blank"}>
+                    <Li href="https://city-khabarovsk.ru/" target={"_blank"}>
                       <Link>Khabarovsk</Link>
                     </Li>
 
-                    <Li href="/" target={"_blank"}>
+                    <Li href="https://city-vladivostok.ru/" target={"_blank"}>
                       <Link>Vladivostok</Link>
                     </Li>
 
-                    <Li href="/" target={"_blank"}>
+                    <Li
+                      href="https://petropavlovsk-kamchatski.ru/"
+                      target={"_blank"}
+                    >
                       <Link>Petropavlovsk-Kamchatsky</Link>
                     </Li>
 
-                    <Li href="/" target={"_blank"}>
+                    <Li href="https://city-chita.ru/" target={"_blank"}>
                       <Link>Chita</Link>
                     </Li>
 
-                    <Li href="/" target={"_blank"}>
+                    <Li
+                      href="https://city-blagoveshchensk.ru/"
+                      target={"_blank"}
+                    >
                       <Link>Blagoveschensk </Link>
                     </Li>
                   </LinkPanel>

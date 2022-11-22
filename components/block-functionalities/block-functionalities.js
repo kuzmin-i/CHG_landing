@@ -1,10 +1,14 @@
 import { Lead, SectionTitle } from "../common/__styles";
-import { Row, Space } from "antd";
+import { Row, Space, Grid as AntGrid } from "antd";
 import Grid from "../grid/grid";
-import { Table } from "./__styles";
+import { ImgBlock, L1, L2, L3, L4, Table } from "./__styles";
 import Paper from "../paper/paper";
 
+const { useBreakpoint } = AntGrid;
+
 const BlockFunctionalities = () => {
+  const { md } = useBreakpoint();
+
   return (
     <>
       <Grid>
@@ -13,38 +17,66 @@ const BlockFunctionalities = () => {
         </Row>
 
         <Table>
-          <Paper>
+          <Paper vertical>
             <Space direction="vertical">
               <Lead title>diverse communication channels</Lead>
-              <Lead>landing pages, chatbots, and groups in social media</Lead>
+              <Lead style={{ maxWidth: md ? "70%" : "100%" }}>
+                landing pages, chatbots, and groups in social media
+              </Lead>
             </Space>
+
+            {md && (
+              <ImgBlock>
+                <L1 />
+              </ImgBlock>
+            )}
           </Paper>
 
-          <Paper>
+          <Paper vertical>
             <Space direction="vertical">
               <Lead title>main digital engagement formats</Lead>
-              <Lead>polls, surveys, and crowdsourcing</Lead>
+              <Lead style={{ maxWidth: md ? "70%" : "100%" }}>
+                polls, surveys, and crowdsourcing
+              </Lead>
             </Space>
+
+            {md && (
+              <ImgBlock>
+                <L2 />
+              </ImgBlock>
+            )}
           </Paper>
 
-          <Paper>
+          <Paper vertical>
             <Space direction="vertical">
               <Lead title>natural language processing</Lead>
-              <Lead>
+              <Lead style={{ maxWidth: md ? "70%" : "100%" }}>
                 topic modeling, problems detection and classification, sentiment
                 analysis
               </Lead>
             </Space>
+
+            {md && (
+              <ImgBlock>
+                <L3 />
+              </ImgBlock>
+            )}
           </Paper>
 
-          <Paper>
+          <Paper vertical>
             <Space direction="vertical">
               <Lead title>one-click report</Lead>
-              <Lead>
+              <Lead style={{ maxWidth: md ? "70%" : "100%" }}>
                 socio-demographic statistics, message analysis, page visits
                 dynamics
               </Lead>
             </Space>
+
+            {md && (
+              <ImgBlock>
+                <L4 />
+              </ImgBlock>
+            )}
           </Paper>
         </Table>
       </Grid>

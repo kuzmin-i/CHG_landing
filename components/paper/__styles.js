@@ -22,6 +22,16 @@ export const Wrapper = styled.div`
     }
   }
 
+  ${({ vertical }) =>
+    vertical
+      ? `
+    &&&&&&& {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  `
+      : ``}
+
   &,
   & * {
     color: ${colors.grey};

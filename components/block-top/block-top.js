@@ -15,6 +15,7 @@ import {
   Slide,
 } from "./__styles";
 import { ArrowRightOutlined } from "@ant-design/icons";
+import Li from "next/link";
 
 import { Carousel, Space, Grid as AntGrid } from "antd";
 
@@ -89,9 +90,9 @@ const BlockTop = () => {
                   </Space>
 
                   <LinkPanel wrap>
-                    <a href="/" target={"_blank"}>
+                    <Li href="/" target={"_blank"}>
                       <Link>Visit website</Link>
-                    </a>
+                    </Li>
                   </LinkPanel>
                   <SiteScreen url={1}></SiteScreen>
                 </Slide>
@@ -114,9 +115,9 @@ const BlockTop = () => {
                   </Space>
 
                   <LinkPanel wrap>
-                    <a href="/" target={"_blank"}>
+                    <Li href="/" target={"_blank"}>
                       <Link>Visit website</Link>
-                    </a>
+                    </Li>
                   </LinkPanel>
                   <SiteScreen url={2}></SiteScreen>
                 </Slide>
@@ -138,25 +139,25 @@ const BlockTop = () => {
                   </Space>
 
                   <LinkPanel wrap size={16}>
-                    <a href="/" target={"_blank"}>
+                    <Li href="/" target={"_blank"}>
                       <Link>Khabarovsk</Link>
-                    </a>
+                    </Li>
 
-                    <a href="/" target={"_blank"}>
+                    <Li href="/" target={"_blank"}>
                       <Link>Vladivostok</Link>
-                    </a>
+                    </Li>
 
-                    <a href="/" target={"_blank"}>
+                    <Li href="/" target={"_blank"}>
                       <Link>Petropavlovsk-Kamchatsky</Link>
-                    </a>
+                    </Li>
 
-                    <a href="/" target={"_blank"}>
+                    <Li href="/" target={"_blank"}>
                       <Link>Chita</Link>
-                    </a>
+                    </Li>
 
-                    <a href="/" target={"_blank"}>
+                    <Li href="/" target={"_blank"}>
                       <Link>Blagoveschensk </Link>
-                    </a>
+                    </Li>
                   </LinkPanel>
                   <SiteScreen url={3}></SiteScreen>
                 </Slide>

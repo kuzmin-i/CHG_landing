@@ -30,7 +30,7 @@ const BlockHow = () => {
                 <Space direction="vertical" style={{ position: "relative" }}>
                   <LeadNumber>02</LeadNumber>
                   <Lead title>analyze ideas</Lead>
-                  <Lead>define citizens' requests using AI technologies</Lead>
+                  <Lead>{`define citizens' requests using AI technologies`}</Lead>
                 </Space>
 
                 <Space direction="vertical" style={{ position: "relative" }}>

@@ -73,8 +73,8 @@ export const LeadNumber = styled(Text)`
 export const CoverTitle = styled(Title)`
   &&& {
     margin-top: 0px;
-    font-weight: 600;
-    font-size: 5.25rem;
+    font-weight: 500;
+    font-size: 5rem;
     line-height: calc(119 / 112);
   }
 
@@ -100,6 +100,6 @@ export const SectionTitle = styled(Title)`
 
 export const KPI = styled(Text)`
   font-weight: 500;
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: calc(119 / 96);
 `;

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Form as AntForm } from "antd";
+import { colors } from "../common/__cfgs";
 
 export const Content = styled.div`
   width: 100%;
@@ -39,7 +40,8 @@ export const HalfOpacity = styled.div`
   opacity: 0.6;
 `;
 
-export const Form = styled(AntForm)`
+export const Form = styled.form`
+  position: relative;
   width: 100%;
 
   & .ant-input {
@@ -68,4 +70,29 @@ export const Form = styled(AntForm)`
     font-size: 1.25rem;
     transform: translateY(-1.25rem);
   }
+`;
+
+export const WhitePlash = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(30px);
+
+  && * {
+    color: ${colors.grey};
+  }
+
+  && .ant-btn {
+    &,
+    &:hover,
+    &:focus {
+      color: ${colors.white};
+    }
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;

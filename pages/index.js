@@ -6,6 +6,7 @@ import BlockHow from "../components/block-how/block-how";
 import BlockTop from "../components/block-top/block-top";
 import Cover from "../components/cover/cover";
 import HR from "../components/hr/hr";
+import KPISBlock from "../components/kpis/kpis";
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
       <Bar />
 
       <Cover />
+      <HR />
+      <KPISBlock />
       <HR />
       <BlockFunctionalities />
       <HR />

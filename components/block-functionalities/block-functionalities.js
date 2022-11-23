@@ -17,7 +17,7 @@ const BlockFunctionalities = () => {
         </Row>
 
         <Table>
-          <Paper vertical>
+          <Paper vertical style={{ overflow: "hidden" }}>
             <Space direction="vertical">
               <Lead title>diverse communication channels</Lead>
               <Lead style={{ maxWidth: md ? "70%" : "100%" }}>
@@ -25,14 +25,14 @@ const BlockFunctionalities = () => {
               </Lead>
             </Space>
 
-            {md && (
+            {true && (
               <ImgBlock>
                 <L1 />
               </ImgBlock>
             )}
           </Paper>
 
-          <Paper vertical>
+          <Paper vertical style={{ overflow: "hidden" }}>
             <Space direction="vertical">
               <Lead title>main digital engagement formats</Lead>
               <Lead style={{ maxWidth: md ? "70%" : "100%" }}>
@@ -40,14 +40,14 @@ const BlockFunctionalities = () => {
               </Lead>
             </Space>
 
-            {md && (
-              <ImgBlock>
+            {true && (
+              <ImgBlock className="l2">
                 <L2 />
               </ImgBlock>
             )}
           </Paper>
 
-          <Paper vertical>
+          <Paper vertical style={{ overflow: "hidden" }}>
             <Space direction="vertical">
               <Lead title>natural language processing</Lead>
               <Lead style={{ maxWidth: md ? "70%" : "100%" }}>
@@ -56,14 +56,14 @@ const BlockFunctionalities = () => {
               </Lead>
             </Space>
 
-            {md && (
+            {true && (
               <ImgBlock>
                 <L3 />
               </ImgBlock>
             )}
           </Paper>
 
-          <Paper vertical>
+          <Paper vertical style={{ overflow: "hidden" }}>
             <Space direction="vertical">
               <Lead title>one-click report</Lead>
               <Lead style={{ maxWidth: md ? "70%" : "100%" }}>
@@ -72,7 +72,7 @@ const BlockFunctionalities = () => {
               </Lead>
             </Space>
 
-            {md && (
+            {true && (
               <ImgBlock>
                 <L4 />
               </ImgBlock>

@@ -16,13 +16,13 @@ export const Content = styled.div`
 `;
 
 export const El = styled.div`
-  width: 694px;
-  height: 798px;
-  background: url("/icons/el.svg");
+  width: 366px;
+  height: 805px;
+  background: url("/icons/el_1.svg");
   background-position: center;
   background-size: cover;
 
-  transform: translateX(calc(-100% - 100px)) scale(.8);
+  transform: translate(calc(-100% - 200px), -50px) scale(.9);
 
   position: absolute;
 `;

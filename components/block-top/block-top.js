@@ -53,7 +53,7 @@ const BlockTop = () => {
                     <Nav active={slide === 1}>
                       <ArrowRightOutlined />
                       <Lead small white title onClick={() => handleGoTo(1)}>
-                        from Moscow to Snt. Petersbutg
+                        from Moscow to St. Petersbutg
                       </Lead>
                     </Nav>
                     <Nav active={slide === 2}>

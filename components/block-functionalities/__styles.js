@@ -19,6 +19,14 @@ export const ImgBlock = styled.div`
   height: 200px;
   position: relative;
 
+  @media (max-width: 768px) {
+    height: 230px;
+
+    &.l2 {
+      height: 280px;
+    }
+  }
+
   display: flex;
   justify-content: flex-end;
 `;
